@@ -1,0 +1,29 @@
+.mdl-layout__header {
+    background-image: url("../Imgs/header.jpg");
+    height: 100%;
+    width: auto;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow:hidden;
+}
+
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+    /* This background is dark, so we set text to white. Use 87% black instead if
+       your background is light. */
+    color: white;
+}
+
+.mdl-card {
+    width: 100%;
+}
+/*.conteudo {
+    background-color: white;
+}*/
